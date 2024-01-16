@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+    
+body {
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+.youtube-img, .search-bar  {
+    width: auto;
+    height: 60px;
+}
+
+.search-bar {
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 18px;
+    float: left;
+}
+
+.actions {
+    width: 25%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 22px;
+    color: rgb(99, 94, 94);
+}
+
+.logo {
+    width: 20%;
+    margin-left: 0;
+    float: left;
+}
+
+.search-button {
+    height: 32px;
+    width: 400px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+button {
+    height: 32px;
+    padding: 7px;
+    float: right;
+    border-width: 1px 1px 1px 0;
+}
+
+.profile > img {
+    height: 40px;
+    width: auto;
+    float: right;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile > i {
+    padding: 10px;
+}
+
+.input-group {
+    display: inline-block;
+}
+
+.menu {
+    float: left;
+    width: 5%;
+}
+
+.menu > ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    width: 60px;
+    height: 100vh;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(88, 85, 85);
+    background-color: white;
+} 
+
+.fa {
+    font-size: 18px;
+    margin-bottom: 25%;
+}
+
+.fa-home {
+    color: red;
+}
+
+#home {
+    color: red;
+}
+
+.sidebar-item {
+    padding-bottom: 30%;
+    padding-top: 30%;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(88, 85, 85);
+    border-radius: 8px;
+    margin: 6px 0;
+}
+
+.three-lines {
+    margin-right: 0;
+    width: 2%;
+    margin: 1%;
+    float: left;
+}
+
+main {
+    float: left;
+    width: 95%;
+    height: 100%;
+}
+
+.row-first {
+    padding: 50px;
+    padding-right: 0;
+    width: calc(100% - 60px);
+    height: 320px;
+    float: left;
+}
+
+.item {
+    width: 290px;
+    height: 150px;
+    margin: 60px 0 0 60px;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5%;
+    float: left;
+}
+
+.item.Episodio-1 {
+    background-image: url(accompagno_1.jpg);
+}
+
+.item.Episodio-2 {
+    background-image: url(accompagno_2.jpg);
+}
+
+.item.Episodio-3 {
+    background-image: url(accompagno_3.jpg);
+}
+
+.item.Episodio-4 {
+    background-image: url(accompagno_4.jpg);
+}
+
+.logo-boolean {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 3%;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.item-container {
+    float: left;
+    width: 25%;
+}
+
+.boolean, .number {
+    font-size: 11px;
+    color: grey;
+    margin: 1%;
+}
+
+.main-text {
+    font-size: 13px;
+}
+
+.row-second {
+    padding: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 320px;
+    float: left;
+}
+
+.item.Episodio-5 {
+    background-image: url(accompagno_5.jpg);
+}
+
+.item.Episodio-6 {
+    background-image: url(accompagno_6.jpg);
+}
+
+.item.Episodio-7 {
+    background-image: url(accompagno_7.jpg);
+}
+
+.item.Episodio-8 {
+    background-image: url(accompagno_8.jpg);
+}
